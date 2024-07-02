@@ -1,6 +1,6 @@
 const database = require('../database/db')
 
-class Post {
+class Projeto {
     constructor() {
         this.model = database.db.define('projetos', {
             id: {
@@ -31,4 +31,4 @@ class Post {
     }
 }
 
-module.exports = (new Post()).model
+module.exports = (new Projeto()).model
